@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RESTServicios", "RESTServicios\RESTServicios.csproj", "{2DB1B436-76A3-4001-8C44-B5D5E38DC79C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolicitudPrestamoTest", "SolicitudPrestamoTest\SolicitudPrestamoTest.csproj", "{45D55A80-512E-4127-8317-6B738F1F7270}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{70EBA12D-FA08-4192-9388-DEC785872CE5}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		RESTBiblioteca.vsmdi = RESTBiblioteca.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = RESTBiblioteca.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2DB1B436-76A3-4001-8C44-B5D5E38DC79C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DB1B436-76A3-4001-8C44-B5D5E38DC79C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DB1B436-76A3-4001-8C44-B5D5E38DC79C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DB1B436-76A3-4001-8C44-B5D5E38DC79C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45D55A80-512E-4127-8317-6B738F1F7270}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45D55A80-512E-4127-8317-6B738F1F7270}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45D55A80-512E-4127-8317-6B738F1F7270}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45D55A80-512E-4127-8317-6B738F1F7270}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

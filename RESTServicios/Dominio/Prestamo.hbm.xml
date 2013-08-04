@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="RESTServicios"
+                   namespace="RESTServicios.Dominio"
+                   default-lazy="false">
+  <class name="Prestamo" table="prestamo">
+    <id name="IdPrestamo" column="idPrestamo">
+      <generator class="identity" />
+    </id>
+    <property name="FeSolicitud" column="feSolicitud" />
+    <property name="NuDias" column="nuDias" />
+    <property name="DeAprobo" column="deAprobo" />
+    <property name="FeRespuesta" column="feRespuesta" />
+    <property name="DeSituacion" column="deSituacion" />
+    <property name="FeInicio" column="feInicio" />
+    <property name="FeFin" column="feFin" />
+    <property name="FeEntrega" column="feEntrega" />
+    <property name="FeDevolucion" column="feDevolucion" />
+    <property name="TxObservacion" column="txObservacion" />
+    <many-to-one name="Usuario" column="usuario" />
+    <many-to-one name="Publicacion" column="publicacion" />
+  </class>
+</hibernate-mapping>

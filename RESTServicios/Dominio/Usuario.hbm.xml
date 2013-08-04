@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="RESTServicios"
+                   namespace="RESTServicios.Dominio"
+                   default-lazy="false">
+  <class name="Usuario" table="usuario">
+    <id name="IdUsuario" column="idUsuario">
+      <generator class="identity" />
+    </id>
+    <property name="DeNombre" column="deNombre" />
+    <property name="DeApellido" column="deApellido" />
+    <property name="NuDocumento" column="nuDocumento" />
+    <property name="DeDireccion" column="deDireccion" />
+    <property name="DeDistrito" column="deDistrito" />
+    <property name="DeCorreo" column="deCorreo" />
+    <property name="DeSituacion" column="deSituacion" />
+  </class>
+</hibernate-mapping>
